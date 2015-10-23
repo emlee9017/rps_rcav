@@ -13,12 +13,19 @@
 		<div class="panel panel-danger">
 			<div class="panel-heading">
 				<h1 class="panel-title text-center">
-					<%= @computer_move %>
+					<%= @computer_move.capitalize %>
 				</h1>
 			</div>				
 			<div class="panel-body">
 				<img class="img-responsive" src="/assets/images/<%= @computer_move %>.png">
 			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="well well-lg text-center">
+			<h1><span class="label label-<%= @button_type %>">You <%= @result %></span></h1>
 		</div>
 	</div>
 </div>
